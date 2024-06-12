@@ -15,6 +15,15 @@
     "start": "electron .",
     "build": "electron-builder"
   },
+  "build": {
+    "appId": "com.jmc.TeachingFeeling",
+    "win": {
+      "icon": "res/icon-1024.png"
+    },
+    "mac": {
+      "icon": "res/icon-1024.png"
+    }
+  },
   "window": {
     "title": "ティラノスタジオ",
     "width": "1600",
