@@ -1,0 +1,30 @@
+{
+  "name": "teaching-feeling",
+  "version": "4.0.6",
+  "description": "TyranoScript｜ティラノスクリプト　Ver5（C）ShikemokuMK http://tyrano.jp",
+  "main": "main.js",
+  "dependencies": {
+    "adm-zip": "^0.4.13",
+    "fs-extra": "^8.1.0"
+  },
+  "devDependencies": {
+    "electron": "^30.1.0",
+    "electron-builder": "^24.13.3"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "window": {
+    "title": "ティラノスタジオ",
+    "width": "1600",
+    "height": "900",
+    "min_width": 100,
+    "min_height": 100,
+    "resize": true,
+    "devtools": false
+  },
+  "keywords": [],
+  "author": "Jmc",
+  "license": "MIT"
+}
